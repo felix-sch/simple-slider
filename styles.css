@@ -21,16 +21,44 @@ html, body {
 .slider {
 	overflow: hidden;
 }
+
 .content {
+	width: 10000px;
+	height: 200px;
 }
-ul {
+
+.slider ul {
 	padding: 0;
 }
-li {
+
+.slider li {
 	float: left;
 	display: inline;
 	list-style-type: none;
 }
+
 .slider img {
+	height: 100%;
 	display: inline;
+}
+#left {
+	position: absolute;
+	float: left;
+}
+#right {
+	right: 0;
+	margin-right: 20px;
+}
+.slider-btn {
+	opacity: 0.6;
+	height: 50px;
+	width: 50px;
+	border: none;
+	border-radius: 50%;
+	bottom: 50%;
+	margin-bottom: -50px;
+	position: absolute;
+}
+.slider-btn:hover {
+	opacity: 1;
 }
